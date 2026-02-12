@@ -1,0 +1,75 @@
+body{
+    font-family: 'Arial';
+    background: #171616;
+}
+
+h2{
+    font-size: 18px;
+    padding: 12px 20px;
+    color: #ffffff;
+    background: #579ed8;
+}
+
+#chat{
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+#chat-window{
+    height: 300px;
+    overflow: auto;
+    background: #eeeeee;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #000000;
+    color: #171616;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #579ed8;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 4px solid #cfcfcf;
+    font-size: 18px;
+}
+#handle::placeholder {
+    color: #579ed8;
+}
+#handle:focus {
+    color: #579ed8;
+}
+#handle:valid {
+    color: #579ed8;
+}
+button{
+    background: #579ed8;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 10px 2px;
+}
